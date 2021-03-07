@@ -5,15 +5,16 @@
 */
 
 html {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    columns: #111;
-    padding: 24px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  columns: #111;
+  padding: 24px;
+  scroll-behavior: smooth;
 }
 body {
-    max-width: 42em;
-    margin: 0 auto;
+  max-width: 42em;
+  margin: 0 auto;
 }
 
 /*
@@ -24,12 +25,11 @@ body {
  */
 
 ::-moz-selection {
-
 }
 
 ::selection {
-    background-color: #44c8f5;
-    color: #fff;
+  background-color: #44c8f5;
+  color: #fff;
 }
 
 /*
@@ -39,8 +39,8 @@ body {
 */
 
 img {
-    max-width: 100%;
-    vertical-align: top;
+  max-width: 100%;
+  vertical-align: top;
 }
 
 /*
@@ -50,29 +50,29 @@ img {
 */
 
 h1 {
-    font-size: 36px;
-    line-height: 40px;
-    margin: 0 0 48px;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0 0 48px;
 }
 
 h2 {
-    font-size: 23px;
-    line-height: 32px;
-    margin: 0 0 24px;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
 }
 
 h3 {
-    font-size: 18px;
-    line-height: 24px;
-    margin: 0 0 24px;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 24px;
 }
 
 h4,
 h5,
 h6 {
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0 0 24px;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 24px;
 }
 
 p,
@@ -82,53 +82,69 @@ dl,
 table,
 address,
 figure {
-    margin: 0 0 24px;
+  margin: 0 0 24px;
 }
 
 ul,
 ol,
 blockquote {
-
 }
 
 li ul,
-li ol{
-
+li ol {
 }
 
 blockquote {
-    font-style: italic;
-    font-size: 23px;
-    line-height: 32px;
-    margin: 0 0 24px;
-    font-family: "Times New Roman", serif;
-    margin-left: 0;
+  font-style: italic;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+  font-family: 'Times New Roman', serif;
+  margin-left: 0;
 }
 
 figcaption {
-    font-size: 12px;
-    line-height: 16px;
-    padding-top: 8px;
-    color: gray;
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 8px;
+  color: gray;
 }
 
 hr {
-
 }
 
 a {
-    color: royalblue;
-    transition: color .1s ease-in-out;
+  color: royalblue;
+  transition: color 0.1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 a:hover,
 a:focus {
-    color: crimson
+  color: crimson;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+th {
+  text-align: left;
+}
+
+th,
+td {
+  padding: 4px 8px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.odd {
+  background-color: whitesmoke;
 }
 
 /*
@@ -139,34 +155,29 @@ a:focus {
     Modify as content requires.
 */
 
-
 /* Extra small devices (portrait phones, less than 576px)
    No media query since this is the default in Bootstrap
 */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    h1 {
-        font-size: 58px;
-        line-height: 64px;
-    }
-    html {
-        padding: 48px 48px 24px;
-    }
+  h1 {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  html {
+    padding: 48px 48px 24px;
+  }
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
 @media (min-width: 992px) {
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
 }
-
